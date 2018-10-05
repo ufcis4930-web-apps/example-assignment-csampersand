@@ -54,19 +54,6 @@ Response body: (empty)
 
 #### Additional REST API function
 
-- create user 
-```
-Request: POST /customers
-Request body:
-{
-    "fname": "Jane",
-    "lname": "Doe",
-    "username": "jdoe",
-    "email": "jdoe@gmail.com"
-}
-Response body: (empty)
-```
-
 - update user
 ```
 Request: PUT /customers
@@ -172,7 +159,7 @@ Response body:
 }
 ```
 
-- add item to shoping cart (Hint: If no current cart exists for this user, create at cart first).
+- add item to shoping cart (Hint: If no current cart exists for this user, create a cart first).
 ```
 Request: POST /carts
 Request body:
