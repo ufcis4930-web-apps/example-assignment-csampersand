@@ -226,15 +226,6 @@ Request params:
 }
 Response body: (empty)
 ```
-- list products bought by a user
-```
-Request: GET /carts
-Request params:
-{ 
-    "username: "jdoe"
-}
-Response body: (empty)
-```
 
 ### Tutorials
 - REST Best practices - https://code-maze.com/top-rest-api-best-practices/
