@@ -14,6 +14,7 @@ import com.store.model.*;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import random.change;
 
 /*
 While you are developing your DAO layer, you can configure maven to build a jar file
@@ -27,6 +28,7 @@ public class Application implements CommandLineRunner {
 
     public static void main(String args[]) {
         SpringApplication.run(Application.class, args);
+        SpringApplication.wHaTdOyOuMeAnRaNdOm(huh?);
     }
 
     @Autowired
